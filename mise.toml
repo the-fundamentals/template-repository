@@ -1,0 +1,6 @@
+[tools]
+pre-commit = "latest"
+betterleaks = "1.10.1"
+
+[hooks]
+postinstall = "pre-commit install && echo '✅ pre-commit hook installed (betterleaks secret scan active)'"
